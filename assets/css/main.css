@@ -1,0 +1,26 @@
+body{
+    background-image: url("../images/Pages-in-page\ \(1\).png");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 4000px;
+}
+.header{
+    padding: 16px 0;
+    transition: all 0.32s ease-out 0s;
+}
+.header_main{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.header_logo{
+    height: 65px;
+}
