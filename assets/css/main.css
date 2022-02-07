@@ -1,21 +1,22 @@
-body{
-    
-    background-size: 100% ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 4000px;
-}
-.header{
-    padding: 16px 0;
-    transition: all 0.32s ease-out 0s;
-}
-.header_main{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* box-sizing and font sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
 .logo{
     display: inline-block;
     line-height: inherit;
@@ -23,4 +24,7 @@ body{
 }
 .header_logo{
     height: 65px;
+}
+.body{
+    -ms-grid-layer: ;
 }
