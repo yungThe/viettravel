@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 /* box-sizing and font sizing */
 *,
 *::before,
@@ -65,16 +66,16 @@ img {
 .welcome-msg{
   
   width: 600px;
-  height: 200px;
+  height: 120px;
   border: 2px solid black;
   margin-top: 10px;
-  
+  font-size: medium;
   z-index: 100;
   background-color: white;
   color: black;
 }
 #logo-img {
-  height: 100px;
+  height: 60px;
 }
 #navbar {
   display: block;
@@ -189,7 +190,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
-  max-width: 2000px;
+  max-width: 1500px;
   margin: 0 auto;
   margin-bottom: 6rem;
 }
