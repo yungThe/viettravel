@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Vietnam</title>
     <link rel="icon" href="./assets/images/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./assets/css/font.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -14,58 +17,156 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-pro-5.15.4/FontAwesome.Pro.5.15.4.Web/css/all.min.css">
 </head>
+
 <body>
     <div class="main">
-        <header class="header">
-            <!-- Navigation Bar -->
-            <div class="header__navbar header__navbar--transparent">
-                <div class="grid wide">
-                    <nav class="navbar__main">
-                        <a href="#" class="navbar__logo">
-                            <img class="navbar__logo-img" src="./assets/images/logo.png" alt="Vietravel Logo">
-                        </a> 
+        <nav id="navbar">
+            <ul class="nav">
+                <li class="logo">
+                    <a id="logo" href="#logo">
+                        <img id="logo-img" src="../assets/images/logo.png">
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#welcome-section" style="color: black; font-size: 50px;">Hội An</a>
+                </li>
 
+
+            </ul>
+        </nav>
+
+        <!-- END NAV -->
+
+        <!-- START WELCOME SECTION -->
+
+        <section id="welcome-section" class="welcome-section">
+            <section class="description">
+                <img src="./assets/images/fwn759-1.jpg" style="height:1000px;; z-index: 11;">
+                <div class="welcome-msg" style="display: block ">
+                    <h3>Phố cổ Hội An</h3>
+                    <p>Hội An là một thành phố trực thuộc tỉnh Quảng Nam, Việt Nam.
+
+                        Phố cổ Hội An từng là một thương cảng quốc tế sầm uất, gồm những di sản kiến trúc đã có từ hàng
+                        trăm năm trước, được UNESCO công nhận là di sản văn hóa thế giới từ năm 1999.</p>
                 </div>
+
+            </section>
+        </section>
+
+        <!-- END WELCOME SECTION -->
+
+        <!-- START PROJECTS SECTION -->
+
+        <section id="projects" class="projects-section">
+            <section class="description">
+
+            </section>
+            <h2 class="projects-section-header" style="margin-bottom: 30px;">PLACES TO CHECK OUT</h2>
+
+            <div class="projects-grid">
+                <a href="#welcome-section" target="_blank" class="project project-tile">
+                    <p class="project-title">
+                        Chùa Cầu
+                    </p>
+                    <img class="project-image" src="./assets/images/chua-cau-hoi-an-vntrip-e1504759723431 (1).jpg"
+                        alt="project" />
+                    <p class="project-title">
+                        Chiếc cầu làm bằng gỗ trên những trụ cầu bằng gạch đá, dài khoảng 18 m, có mái che, vắt cong qua
+                        lạch nước chảy ra sông Thu Bồn giáp ranh giữa hai đường Nguyễn Thị Minh Khai và Trần Phú.
+                    </p>
+                </a>
+                <a href="#welcome-section" target="_blank" class="project project-tile">
+                    <p class="project-title">
+                        Chợ đêm Hội An
+                    </p>
+                    <img class="project-image" src="./assets/images/hoi-an-ve-dem-4.jpg" alt="project" />
+                    <p class="project-title">
+
+                        Chợ đêm Hội An là điểm vui chơi quen thuộc với nhiều người dân và du khách khi đến với Quảng
+                        Nam. Tại khu chợ này, bạn sẽ được hòa mình vào không gian mua sắm sầm uất, thưởng thức nhiều món
+                        ăn mang đậm màu sắc vùng miền. Đây là một điểm đến đặc trưng của văn hóa du lịch tại phố cổ.
+
+                    </p>
+                </a>
+                <a href="#welcome-section" target="_blank" class="project project-tile">
+                    <p class="project-title">
+                        Nhà cổ Tấn Ký
+                    </p>
+                    <img class="project-image" src="./assets/images/Nha-co-Tan-Ky-03.jpg" alt="project" />
+                    <p class="project-title">
+                        Nhà cổ Tấn Ký có từ lâu đời, là nơi sinh sống của 7 thế hệ nhà họ Lê. Ngôi nhà cổ đẹp nhất Hội
+                        An này là địa điểm check-in “hot” nhất phố Hội, luôn thu hút hàng nghìn khách du lịch đến chiêm
+                        ngưỡng kiến trúc, văn hóa và nghe bài thuyết minh về nhà cổ Tấn Ký đầy ấn tượng.
+                    </p>
+                </a>
             </div>
 
-            <!-- Header Content -->
-            <div id="home" class="section header__main">
-                <div class="grid wide">
-                    <div class="header__content">
-                        <h1 class="header__title">Discover the Beauty, the Delicious and the Wonders of Vietnam</h1>
-                        <p class="header__description">We're here to take you around Vietnam and give you the chance to enjoy this moment all at its best. One love, one Vietnam!</p>
-                       
-                    </div>
-                </div>
-                <div class="header__shape">
-                    <img src="./assets/images/header-shape.png" alt="Shape">
-                </div>
-            </div>
-        </header>
+            <a></a>
+        </section>
 
-      
-       
-          
-        <!-- Footer -->
-        <footer class="footer">
-           
-                <div class="footer__block">
-                    <div class="footer__social">
-                        <h2 class="footer__follow">FOLLOW US</h2>
-                        <div class="footer__social-list">
-                            <i class="footer__social-icon fab fa-facebook"></i>
-                            <i class="footer__social-icon fab fa-instagram"></i>
-                            <i class="footer__social-icon fab fa-twitter"></i>
-                            <i class="footer__social-icon fab fa-linkedin"></i>
-                        </div>
-                    </div>
-                    <p class="footer__copyright">© 2022 Vietravel. All Rights Reserved.</p>
-                </div>
+        <section id="projects" class="projects-section">
+            <section class="description">
+
+            </section>
+            <h2 class="projects-section-header-2" style="margin-bottom: 30px;">MUST-TRY DISHES</h2>
+
+            <div class="projects-grid">
+                <a href="#welcome-section" target="_blank" class="project project-tile">
+                    <p class="project-title">
+                        Cao lầu Hội An
+                    </p>
+                    <img class="project-image" src="./assets/images/maxresdefault-1.jpg" alt="project" />
+                    <p class="project-title">
+                        Cao lầu Hội An là món ăn đặc sản từ xa xưa, người dân Quảng Nam đã có câu ca dao:
+
+                        “Ai qua phố cổ Hội An
+
+                        Ghé thăm Phúc Kiến mà ăn cao lầu”
+                    </p>
+                </a>
+                <a href="#welcome-section" target="_blank" class="project project-tile">
+                    <p class="project-title">
+                        Mỳ Quảng Hội An
+                    </p>
+                    <img class="project-image" src="./assets/images/mi-quang-hoi-an.jpg" alt="project" />
+                    <p class="project-title">
+                        Nếu người Hà Nội tự hào vì món phở bò thơm ngon, người dân Huế có món bún bò đặc sắc thì người
+                        xứ Quảng lại tự hào về mì Quảng, một món ăn đặc sản Hội An. Món này từng khiến bao thực khách
+                        phải lưu luyến mãi hương vị thơm ngon đặc trưng.
+                    </p>
+                </a>
+                <a href="#welcome-section" target="_blank" class="project project-tile">
+                    <p class="project-title">
+                        Bánh đập hến xào
+                    </p>
+                    <img class="project-image"
+                        src="./assets/images/cach-nau-cac-mon-ngon-tu-hen-xao-hen-chien-bot-thumb.jpg" alt="project" />
+                    <p class="project-title">
+                        Bánh đập xúc hến xào Hội An là một trong những món ăn dân giã được nhiều du khách yêu mến nhờ
+                        hương vị hấp dẫn, đậm đà và mang màu sắc đặc trưng của phố cổ. Món ăn quyến rũ nhờ hương vị đặc
+                        trưng của loại hến vùng Cẩm Nam mà bạn sẽ không thể cảm nhận được ở bất kì một nơi nào khác
+                        ngoài Hội An.
+                    </p>
+                </a>
+
             </div>
+
+
+        </section>
+
+
+        <!-- END PROJECTS SECTION -->
+
+
+
+        <!-- START FOOTER SECTION -->
+
+        <footer>
+            <p>
+                &copy; Follow us <i </p>
         </footer>
-    </div>
-    <script>
 
-    </script>
+        <!-- END FOOTER SECTION -->
 </body>
+
 </html>
