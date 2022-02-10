@@ -34,7 +34,7 @@ width:100%;
 height: 100px;
 position: relative;
 display: flex;
-margin-bottom: 40px;
+margin-bottom: 4px;
 bottom: calc(50% - 70px);
 left: 0;
 padding:20px 0px;
@@ -300,6 +300,7 @@ img {
   display: block;
   width: 100%;
 }
+/*hover effect*/
 
 /* nav */
 #logo {
@@ -312,7 +313,7 @@ img {
   
   width: 600px;
   height: 120px;
-  border: 2px solid black;
+  border: 2px white;
   margin-top: 10px;
   font-size: medium;
   z-index: 100;
@@ -415,6 +416,13 @@ img {
   margin-bottom: 6rem;
 }
 
+
+.project:hover .project-image {
+  transform: scale(0.98);
+  background-color: transparent;
+  display: block;
+  filter:blur(1px)
+}
 .project {
   background: white;
   border-radius: 10px;
@@ -422,11 +430,6 @@ img {
 .readmore{
   margin-bottom: 10px;
 }
-
-.project:hover .code {
-  color: #ff7f50;
-}
-
 .project-image {
   width: 100%;
   object-fit: contain;
